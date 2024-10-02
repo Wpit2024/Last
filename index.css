@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    /* background-color: brown; */
+    flex-wrap: wrap;
+    /* width: 100vw; */
+}
+.box{
+    background-color: white;
+    /* height: 50vh; */
+    width: 45vw;
+    margin: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 85px;
+    top: 40px;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+   position: relative;
+   top: 40px;
+}
+body{
+    /* background-color: rgb(61, 61, 196); */
+    background-image: url(clg.jpg);
+    background-repeat: repeat-y;
+  background-size: cover;
+}
